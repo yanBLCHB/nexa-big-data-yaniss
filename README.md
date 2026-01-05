@@ -1,3 +1,15 @@
+#Arborescence du projet
+
+ nexa-big-data-yaniss/
+├── script/
+│   └── getapi.py
+├── data/
+│   └── raw/ 
+        └── meteo_20260105_150408.json
+├── README.md
+
+
+
 # Commandes – Lancer le script getapi.py
 
 ## 1. Cloner le dépôt
