@@ -1,0 +1,29 @@
+[2026-01-06T12:55:05.426+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-06T12:55:05.432+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-06T12:55:05.434+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-06T12:55:05.435+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-06T12:55:05.498+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-01-06T12:55:05.594+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/meteo_logs_dag.py     34  0.04s             0           0
+================================================================================
+[2026-01-06T12:55:35.743+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/meteo_logs_dag.py                           1           0  0.37s           2026-01-06T12:55:05
+================================================================================
+[2026-01-06T12:56:06.178+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/meteo_logs_dag.py                           1           0  0.19s           2026-01-06T12:55:36
+================================================================================

@@ -1,0 +1,25 @@
+[2026-01-06T12:55:05.574+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:05.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_logs_dag.py for tasks to queue
+[2026-01-06T12:55:05.579+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:05.622+0000] {processor.py:840} INFO - DAG(s) 'meteo_logs_collection' retrieved from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:05.855+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.854+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:meteo_logs_collection
+[2026-01-06T12:55:05.864+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.863+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:meteo_logs_collection
+[2026-01-06T12:55:05.869+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.869+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:meteo_logs_collection
+[2026-01-06T12:55:05.870+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.870+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T12:55:05.879+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.879+0000] {dag.py:3058} INFO - Creating ORM DAG for meteo_logs_collection
+[2026-01-06T12:55:05.889+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:05.889+0000] {dag.py:3823} INFO - Setting next_dagrun for meteo_logs_collection to 2026-01-06 11:00:00+00:00, run_after=2026-01-06 12:00:00+00:00
+[2026-01-06T12:55:05.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_logs_dag.py took 0.337 seconds
+[2026-01-06T12:55:36.074+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:36.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_logs_dag.py for tasks to queue
+[2026-01-06T12:55:36.082+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:36.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:36.117+0000] {processor.py:840} INFO - DAG(s) 'meteo_logs_collection' retrieved from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:55:36.161+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:36.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T12:55:36.197+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:55:36.197+0000] {dag.py:3823} INFO - Setting next_dagrun for meteo_logs_collection to 2026-01-06 11:00:00+00:00, run_after=2026-01-06 12:00:00+00:00
+[2026-01-06T12:55:36.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_logs_dag.py took 0.151 seconds
+[2026-01-06T12:56:06.369+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:56:06.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_logs_dag.py for tasks to queue
+[2026-01-06T12:56:06.373+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:56:06.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:56:06.402+0000] {processor.py:840} INFO - DAG(s) 'meteo_logs_collection' retrieved from /opt/airflow/dags/meteo_logs_dag.py
+[2026-01-06T12:56:06.438+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:56:06.438+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T12:56:06.471+0000] {logging_mixin.py:188} INFO - [2026-01-06T12:56:06.470+0000] {dag.py:3823} INFO - Setting next_dagrun for meteo_logs_collection to 2026-01-06 12:00:00+00:00, run_after=2026-01-06 13:00:00+00:00
+[2026-01-06T12:56:06.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_logs_dag.py took 0.159 seconds
