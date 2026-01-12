@@ -1,4 +1,4 @@
-#Arborescence du projet
+# Arborescence du projet
 
  nexa-big-data-yaniss/
 ├── script/
@@ -7,7 +7,8 @@
 │   └── raw/ 
         └── meteo_20260105_150408.json
 ├── README.md
-
+├── requetes TP3/
+│   └── requete1.sql
 
 
 # Commandes – Lancer le script getapi.py
@@ -55,3 +56,4 @@ cd ..
 ls data/raw
 ```
 
+## Requetes dans le dossier requetes TP3
